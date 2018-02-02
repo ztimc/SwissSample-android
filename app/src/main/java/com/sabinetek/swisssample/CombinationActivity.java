@@ -20,6 +20,8 @@ import java.io.IOException;
 
 public class CombinationActivity extends Activity {
 
+    public static final String TAG = "CombinationActivity";
+
     private StereoToMono mStereoToMono;
     private ReSample mReSample;
     private RingBuffer mRingBuffer;
@@ -81,11 +83,11 @@ public class CombinationActivity extends Activity {
                         try {
                             //原始音频存储
                             stereoPcm.write(data, data.length);
-                            Log.d("write", "write 44100 2 length is " + data.length);
+                            Log.d(TAG, "write 44100 2 length is " + data.length);
                             //转单声道
                             byte[] monoPcm = mStereoToMono.process(data, data.length);
                             monoPcm44.write(monoPcm);
-                            Log.d("write", "write 44100 1 length is " + monoPcm.length);
+                            Log.d(TAG, "write 44100 1 length is " + monoPcm.length);
                             //重采样,先存入ringBuff,再按照44100,20ms大小取，再重采样
                             mRingBuffer.write(monoPcm, monoPcm.length);
 
@@ -123,7 +125,7 @@ public class CombinationActivity extends Activity {
                 if (mRingBuffer.availableRead() >= 1764) {
                     byte[] read = mRingBuffer.read(1764);
                     byte[] resample = mReSample.resample(read, read.length);
-                    Log.d("fucking", resample.length + "");
+                    Log.d(TAG, resample.length + "");
                     try {
                         monoPcm16.write(resample, resample.length);
                     } catch (IOException e) {

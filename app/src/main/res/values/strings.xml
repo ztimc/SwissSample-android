@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SwissSample</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="device_state">设备状态:\t</string>
+    <string name="device_default_state">未连接</string>
+    <string name="device_connected">\t已连接</string>
+    <string name="start_recode">开始录制</string>
+    <string name="start_update">开始升级</string>
+    <string name="get_version">获版本号</string>
+    <string name="start_recode_former">开始录制former重采样数据</string>
+    <string name="stop_recode">停止录制</string>
+    <string name="stop_recode_former">停止录制former重采样数据</string>
+    <string name="start_recode_10ms">开始录制10ms</string>
+    <string name="stop_recode_10ms">停止录制10ms</string>
+    <string name="mic_gian">Mic增益值:\t</string>
+    <string name="mic_left_gian">Mic left 增益值:\t</string>
+    <string name="mic_right_gian">Mic right 增益值:\t</string>
+    <string name="speaker_left_volume">Speaker left 输出音量值:\t</string>
+    <string name="speaker_volume">Speaker 输出音量值:\t</string>
+    <string name="speaker_right_volume">Speaker right 输出音量值:\t</string>
+    <string name="monitor_volume">Monitor/监听值:\t</string>
+    <string name="monitor_left_volume">Monitor left/监听值:\t</string>
+    <string name="monitor_right_volume">Monitor right/监听值:\t</string>
+    <string name="agc_value">AGC/自动增益:</string>
+    <string name="ans_value">ANS/智能降噪:</string>
+    <string name="revb_ratio_value">混响值:\t</string>
+    <string name="music_mixer_value">混音值:\t</string>
+    <string name="stereo_to_mono">双声道转单声道</string>
+    <string name="resample">重采样</string>
+    <string name="resample_and_stereo_to_mono">重采样和声道转换组合</string>
+
+    <string name="version_information">版本信息</string>
+    <string name="version_value">0.0.0</string>
+    <string name="protocol_version">协议版本: \t</string>
+    <string name="firmware_version">固件版本: \t</string>
+    <string name="hardware_version">硬件版本: \t</string>
+    <string name="codec_version">编码器版本: \t</string>
+    <string name="manufacture">制造商: \t</string>
+    <string name="licensed_for">授权商: \t</string>
+    <string name="cancel">取消</string>
+    <string name="reverberation_type">混响种类</string>
+    <string name="devocal">devocal</string>
+    <string name="close_devocal">关闭devocal</string>
+    <string name="open_devocal">打开devocal</string>
+    <string name="devocal_left">人声靠左</string>
+    <string name="devocal_right">人声靠右</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+</resources>
+

@@ -17,8 +17,6 @@
     <string name="mic_gian">Mic增益值:\t</string>
     <string name="mic_left_gian">Mic left 增益值:\t</string>
     <string name="mic_right_gian">Mic right 增益值:\t</string>
-    <string name="speaker_left_volume">Speaker left 输出音量值:\t</string>
-    <string name="speaker_volume">Speaker 输出音量值:\t</string>
     <string name="speaker_right_volume">Speaker right 输出音量值:\t</string>
     <string name="monitor_volume">Monitor/监听值:\t</string>
     <string name="monitor_left_volume">Monitor left/监听值:\t</string>
@@ -26,11 +24,12 @@
     <string name="agc_value">AGC/自动增益:</string>
     <string name="ans_value">ANS/智能降噪:</string>
     <string name="revb_ratio_value">混响值:\t</string>
-    <string name="music_mixer_value">混音值:\t</string>
+
     <string name="stereo_to_mono">双声道转单声道</string>
     <string name="resample">重采样</string>
-    <string name="resample_and_stereo_to_mono">重采样和声道转换组合</string>
+    <string name="music_mixer_value">混音\t</string>
 
+    <!--Dialog-->
     <string name="version_information">版本信息</string>
     <string name="version_value">0.0.0</string>
     <string name="protocol_version">协议版本: \t</string>
@@ -48,5 +47,9 @@
     <string name="devocal_right">人声靠右</string>
     <string name="start">开始</string>
     <string name="stop">停止</string>
+    <string name="click">响指检测</string>
+    <string name="de">去人声</string>
+    <string name="mode">场景模式:</string>
+    <string name="voiceOfPeople">去人声</string>
 </resources>
 

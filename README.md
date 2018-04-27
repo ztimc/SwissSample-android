@@ -105,8 +105,28 @@ Swiss.getSwiss().setMonitorVolume() //设置监听音量(设备中听到自己�
 Swiss.getSwiss().setAgcEnable() //设置自动增益 true or false
 Swiss.getSwiss().setAns() // 设置降噪 0-1-2-3 值越大，消除噪音越大 
 Swiss.getSwiss().setReverberationRatio() //设置混响值0-100
-Swiss.getSwiss().setMusicMixer() //设置混音大小0-100
+Swiss.getSwiss().setDevocalMusicMixer() //是否开启混音
 
 ```
 
-更多请参看sample中内容
+​	(5).固件升级
+
+```java
+
+FirmwareUpdater.getInstance().upFirmware(tempFile, new FirmwareUpdateListener() {
+    @Override  //升级进度
+    public void onUpdate(final int progress) {
+    }
+
+    @Override //升级成功
+    public void onSuccess() {
+    }
+
+    @Override //升级失败
+    public void onError() {
+
+    }
+});
+```
+
+更多请参看项目中内容

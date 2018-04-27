@@ -20,7 +20,7 @@ allprojects {
 ​	(2)在 module 级别的 build.gradle 文件中添加依赖
 
 ```
-implementation 'com.sabinetek.swiss:SwissSdk:1.3.9'
+implementation 'com.sabinetek.swiss:SwissSdk:1.4.14'
 ```
 
 ## 二. 初始化SDK
